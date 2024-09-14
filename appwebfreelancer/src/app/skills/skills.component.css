@@ -1,0 +1,70 @@
+/* Estilos generales para la sección de habilidades */
+/* @import url(/appwebfreelancer/src/styles.css); */
+.skills-section {
+    background-color: #f4f4f4;
+    padding: 4rem 1rem;
+    text-align: center;
+  
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      color: #333;
+    }
+  
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  
+    .skill {
+      margin-bottom: 2rem;
+  
+      h3 {
+        font-size: 1.5rem;
+        color: #333;
+        margin-bottom: 0.5rem;
+      }
+  
+      /* Estilo de la barra de progreso */
+      .progress-bar {
+        background-color: #ddd;
+        border-radius: 5px;
+        overflow: hidden;
+        height: 25px;
+        position: relative;
+      }
+  
+      .progress {
+        background-color: #ff5722;
+        height: 100%;
+        color: white;
+        text-align: right;
+        padding-right: 10px;
+        line-height: 25px;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: bold;
+        transition: width 0.3s ease;
+      }
+    }
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    .skills-section h2 {
+      font-size: 2rem;
+    }
+  
+    .skill h3 {
+      font-size: 1.25rem;
+    }
+  
+    .progress-bar {
+      height: 20px;
+    }
+  
+    .progress {
+      font-size: 0.9rem;
+    }
+  }
+  

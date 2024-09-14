@@ -1,0 +1,43 @@
+<nav class="navbar">
+    <div class="navbar-container">
+      <div class="logo">
+        <a href="#"><img src="img/icono.png" alt="Freelancer Developer"></a>
+      </div>
+  
+      <!-- Links de navegación -->
+      <ul class="nav-links">
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="#portfolio">Portafolio</a></li>
+        <li><a href="#about-content">Sobre Mí</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+  
+      <!-- Menú hamburguesa para móviles -->
+      <div class="hamburger">
+        <span>Lorem ipsum dolor</span>
+        <span>Lorem ipsum dolor</span>
+        <span>Lorem ipsum dolor</span>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Para la navegación móvil -->
+  <div class="mobile-menu">
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#services">Servicios</a></li>
+      <li><a href="#portfolio">Portafolio</a></li>
+      <li><a href="#about-me">Sobre Mí</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </div>
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const mobileMenu = document.querySelector('.mobile-menu');
+  
+    hamburger.addEventListener('click', () => {
+      mobileMenu.classList.toggle('active');
+    });
+  </script>
+  
